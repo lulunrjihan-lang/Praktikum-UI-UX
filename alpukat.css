@@ -1,0 +1,62 @@
+body {
+  background-color: blueviolet;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
+
+.img{
+  border: 3px solid softpurple;
+  border-radius: 25px;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto{
+  background-color: black;
+  display: block;
+  width: fit-content;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.foto img{
+  width: 200px;
+}
+
+.promo{
+  text-align: center;
+  color: red;
+}
+
+.cod{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+  padding: 10px 5px;
+  color: black;
+  border: 2px dotted black;
+  border-radius: 15px;
+  
+  & p {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+#tombol{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 20px solid: whitesmoke;
+  background-color: yellow;
+  color: red;
+}
